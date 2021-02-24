@@ -124,11 +124,11 @@ export default function Home() {
         <div className="container">
             <div className="row">
                 <div className="col-sm-12">
-                    <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div className="col-sm-12">
                     <div class="row">
-                        <div className="col px-0">
+                        <div className="col py-2 d-flex justify-content-center align-items-center">
                             <h2 className="fs-2">Starters</h2>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ export default function Home() {
                     })}
 
                     <div class="row">
-                        <div className="col px-0">
+                    <div className="col py-2 d-flex justify-content-center align-items-center">
                             <h2 className="fs-2">Entrees</h2>
                         </div>
                     </div>
@@ -146,7 +146,7 @@ export default function Home() {
                     })}
 
                     <div class="row">
-                        <div className="col px-0">
+                    <div className="col py-2 d-flex justify-content-center align-items-center">
                             <h2 className="fs-2">Desserts</h2>
                         </div>
                     </div>

@@ -8,10 +8,33 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
 
-.logo {
-  margin: .625rem;
-  padding: .625rem;
-  background-color: black;
+.fs-1 {
+  font-size: 3rem;
+}
+
+.fs-2 {
+  font-size: 2.75rem;
+}
+
+.fs-3 {
+  font-size: 2.5rem;
+}
+
+.fs-4 {
+  font-size: 2.25rem;
+}
+
+.fs-5 {
+  font-size: 2rem;
+}
+
+.fs-6 {
+  font-size: 1.75rem;
+}
+
+
+header {
+  padding: .625rem 0;
 }
 
 .main-nav {
