@@ -123,36 +123,43 @@ export default function Home() {
         <Header></Header>
         <div className="container">
             <div className="row">
-                <div className="col-sm-12">
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div className="col-sm-12 intro-area d-flex flex-column justify-content-center align-items-center">
+                    <h1 className="fs-1 pb-4">Welcome to Kilkennys</h1>
+                    <p className="fs-6 text-center">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
                 </div>
                 <div className="col-sm-12">
                     <div class="row">
                         <div className="col py-2 d-flex justify-content-center align-items-center">
-                            <h2 className="fs-2">Starters</h2>
+                            <h2 className="fs-3">Starters</h2>
                         </div>
                     </div>
+                    <div className="row mb-5">
                     {starters.map((item) => {
                         return <MenuItemPreview name={item.name} image={item.image} description={item.description}></MenuItemPreview>
                     })}
+                    </div>
 
                     <div class="row">
                     <div className="col py-2 d-flex justify-content-center align-items-center">
-                            <h2 className="fs-2">Entrees</h2>
+                            <h2 className="fs-3">Entrees</h2>
                         </div>
                     </div>
+                    <div className="row mb-5">
                     {entrees.map((item) => {
                         return <MenuItemPreview name={item.name} image={item.image} description={item.description}></MenuItemPreview>
                     })}
+                    </div>
 
                     <div class="row">
                     <div className="col py-2 d-flex justify-content-center align-items-center">
-                            <h2 className="fs-2">Desserts</h2>
+                            <h2 className="fs-3">Desserts</h2>
                         </div>
                     </div>
+                    <div className="row mb-5">
                     {desserts.map((item) => {
                         return <MenuItemPreview name={item.name} image={item.image} description={item.description}></MenuItemPreview>
                     })}
+                    </div>
 
                 </div>
             </div>

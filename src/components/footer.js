@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center p-4">
                     <img src={logo} className="logo" alt="Kilkennys Restaurant" />
                 </div>
-                <div className="col-sm-12 col-lg-7 d-flex justify-content-center align-items-center justify-content-lg-start align-items-lg-start p-4">
+                <div className="col-sm-12 col-lg-7 d-flex justify-content-center align-items-center justify-content-lg-start align-items-lg-center p-4">
                     <MainNav></MainNav>
                 </div>
                 <div className="col-sm-12 col-lg-2 px-4 py-2 d-flex justify-content-center align-items-center justify-content-lg-end align-items-lg-end text-white">

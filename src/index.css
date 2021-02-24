@@ -9,27 +9,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fs-1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .fs-2 {
-  font-size: 2.75rem;
+  font-size: 3.25rem;
 }
 
 .fs-3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .fs-4 {
-  font-size: 2.25rem;
+  font-size: 2.75rem;
 }
 
 .fs-5 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .fs-6 {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 
 
@@ -57,7 +57,7 @@ header {
 .menu-item-img {
   background-color: #f0f0f0;
   position: relative;
-  height: 400px;
+  height: 250px;
   overflow: hidden;
 }
 
@@ -77,4 +77,14 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.intro-area {
+    height: 100vh;
+}
+
+@media (min-width: 1024px) {
+  .intro-area {
+    height: 66vh;
+  }
 }
