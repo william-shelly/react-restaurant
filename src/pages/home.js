@@ -38,7 +38,7 @@ export default function Home() {
         {
             "name": "Chicken Quesadilla",
             "image": "https://www.spendwithpennies.com/wp-content/uploads/2020/01/Chicken-Quesadillas-1.jpg",
-            "description": "Giant Flour Tortilla, Grilled Chicken Breast, Shredded Cheddar Jack, with a Side of Salsa and Sour Cream"
+            "description": `Giant Flour Tortilla, Grilled Chicken Breast, Shredded Cheddar Jack, with a Side of Salsa and Sour Cream`
         }
     ];
 
@@ -115,11 +115,8 @@ export default function Home() {
 
     return(
         <>
-        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet"></link>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></link>
+{/*
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></link> */}
         <Header></Header>
         <div className="container">
             <div className="row">
