@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-$primarycolor: blue;
+$darkcolor: #484848;
+$primarycolor: #e32619;
 
 
 body {
   background-color: #fff;
+  color: $darkcolor;
 }
 
 .container {
@@ -17,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Fredericka the Great', cursive;
 	margin: .625rem 0;
   text-transform: capitalize;
+  color: $primarycolor;
 }
 
 .fs-1 {
@@ -63,6 +66,9 @@ header {
 .main-nav li a {
   margin: 0;
   padding: .625rem;
+  color: $primarycolor;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .menu-item-img {
@@ -90,12 +96,61 @@ header {
   justify-content: center;
 }
 
+header ,
+.intro-area-container {
+  margin-top: -.625rem;
+}
+
 .intro-area {
+    position: relative;
     height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/c5/92/41/c59241fa98161a106b9be08dccbd3ac9.jpg);
+    background-position: center center;
+    background-size: cover;
+
+    .text-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 3;
+    }
+}
+
+.intro-area::after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.5);
+  z-index: 2;
+}
+
+.text-shadow {
+  text-shadow: 0 3px 6px rgba(0,0,0,.5);
 }
 
 @media (min-width: 1024px) {
   .intro-area {
-    height: 66vh;
+    height: 80vh;
+
+    h1 {
+      font-size: 5rem;
+    }
+
+    .text-container p {
+      max-width: 75%;
+      min-width: 600px;
+      font-size: 2.25rem;
+    }
   }
+
 }

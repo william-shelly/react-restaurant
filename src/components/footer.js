@@ -12,7 +12,6 @@ export default function Footer() {
                     <MainNav></MainNav>
                 </div>
                 <div className="col-sm-12 col-lg-2 px-4 py-2 d-flex justify-content-center align-items-center justify-content-lg-end align-items-lg-end text-white">
-                    [social icons]
                 </div>
             </div>
             <div className="row bg-dark">

@@ -118,15 +118,21 @@ export default function Home() {
 {/*
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></link> */}
         <Header></Header>
+        <div className="container-fluid intro-area-container">
+            <div className="row">
+                <div className="col-sm-12 p-0 intro-area">
+                    <div className="text-container p-5 d-flex flex-column justify-content-center align-items-center">
+                        <h1 className="text-center pb-4 text-shadow">Welcome to Kilkennys</h1>
+                        <p className="text-center text-white text-shadow">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div className="container">
             <div className="row">
-                <div className="col-sm-12 intro-area d-flex flex-column justify-content-center align-items-center">
-                    <h1 className="fs-1 pb-4">Welcome to Kilkennys</h1>
-                    <p className="fs-6 text-center">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
-                </div>
                 <div className="col-sm-12">
                     <div class="row">
-                        <div className="col py-2 d-flex justify-content-center align-items-center">
+                        <div className="col py-2 py-lg-5 d-flex justify-content-center align-items-center">
                             <h2 className="fs-3">Starters</h2>
                         </div>
                     </div>
@@ -137,7 +143,7 @@ export default function Home() {
                     </div>
 
                     <div class="row">
-                    <div className="col py-2 d-flex justify-content-center align-items-center">
+                    <div className="col py-2 py-lg-5 d-flex justify-content-center align-items-center">
                             <h2 className="fs-3">Entrees</h2>
                         </div>
                     </div>
@@ -148,7 +154,7 @@ export default function Home() {
                     </div>
 
                     <div class="row">
-                    <div className="col py-2 d-flex justify-content-center align-items-center">
+                    <div className="col py-2 py-lg-5 d-flex justify-content-center align-items-center">
                             <h2 className="fs-3">Desserts</h2>
                         </div>
                     </div>
