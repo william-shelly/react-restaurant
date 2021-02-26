@@ -41,6 +41,13 @@ export default function Home() {
             "description": `Giant Flour Tortilla, Grilled Chicken Breast, Shredded Cheddar Jack, with a Side of Salsa and Sour Cream`
         }
     ];
+/*
+Tried to add id, but unable to add this to menuitempreview.js
+Unable to get key to show in element.
+*/
+    const startersObjects = starters.map((starter, i) => ({id: i, name: starter.name, image: starter.image, description: starter.description}))
+
+    console.log(startersObjects);
 
     const entrees = [
         {
@@ -131,7 +138,7 @@ export default function Home() {
         <div className="container">
             <div className="row">
                 <div className="col-sm-12">
-                    <div class="row">
+                    <div className="row">
                         <div className="col py-2 py-lg-5 d-flex justify-content-center align-items-center">
                             <h2 className="fs-3">Starters</h2>
                         </div>
@@ -142,7 +149,7 @@ export default function Home() {
                     })}
                     </div>
 
-                    <div class="row">
+                    <div className="row">
                     <div className="col py-2 py-lg-5 d-flex justify-content-center align-items-center">
                             <h2 className="fs-3">Entrees</h2>
                         </div>
@@ -153,7 +160,7 @@ export default function Home() {
                     })}
                     </div>
 
-                    <div class="row">
+                    <div className="row">
                     <div className="col py-2 py-lg-5 d-flex justify-content-center align-items-center">
                             <h2 className="fs-3">Desserts</h2>
                         </div>
