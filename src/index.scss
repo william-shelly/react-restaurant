@@ -48,7 +48,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 header {
+  height: 100vh;
   padding: .625rem 0;
+  z-index: 4;
+  .row {
+    height: 100vh;
+  }
 }
 
 .main-nav {
@@ -66,10 +71,22 @@ header {
 .main-nav li a {
   margin: 0;
   padding: .625rem;
-  color: $primarycolor;
   font-weight: bold;
   font-size: 1.2rem;
 }
+
+header .main-nav li a {
+  color: #fff;
+}
+
+.bg-gray-gradient-70-to-0 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.365) 0%,transparent);
+}
+
+footer .main-nav li a {
+  color: $primarycolor;
+}
+
 
 .menu-item-img {
   background-color: #f0f0f0;
@@ -96,10 +113,10 @@ header {
   justify-content: center;
 }
 
-header ,
+/* header ,
 .intro-area-container {
   margin-top: -.625rem;
-}
+} */
 
 .intro-area {
     position: relative;
@@ -138,9 +155,21 @@ header ,
   text-shadow: 0 3px 6px rgba(0,0,0,.5);
 }
 
+footer svg {
+  width: 30px!important;
+  height: 30px!important;
+  margin: .625rem;
+  color: $primarycolor;
+}
+
 @media (min-width: 1024px) {
+  header {
+    height: initial;
+    .row {
+      height: initial;
+    }
+  }
   .intro-area {
-    height: 80vh;
 
     h1 {
       font-size: 5rem;

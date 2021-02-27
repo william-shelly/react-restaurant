@@ -1,5 +1,8 @@
 import logo from '../img/kilkennys-logo-white.png';
 import MainNav from "./mainnav.js"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
     return (
@@ -11,8 +14,9 @@ export default function Footer() {
                 <div className="col-sm-12 col-lg-7 d-flex justify-content-center align-items-center justify-content-lg-start align-items-lg-center p-4">
                     <MainNav></MainNav>
                 </div>
-                <div className="col-sm-12 col-lg-2 px-4 py-2 d-flex justify-content-center align-items-center justify-content-lg-end align-items-lg-end text-white">
-                [social icons]
+                <div className="col-sm-12 col-lg-2 px-4 py-2 d-flex justify-content-center align-items-center justify-content-lg-end text-white">
+                <a href="#0" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="#0" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
                 </div>
             </div>
             <div className="row bg-dark">
