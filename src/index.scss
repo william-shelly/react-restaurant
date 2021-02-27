@@ -67,7 +67,7 @@ header {
 
 .main-nav li {
   display: inline-block;
-  margin: 0 .625rem;
+  margin: .625rem 0;
   padding: 0;
 }
 
@@ -172,6 +172,11 @@ footer svg {
       height: initial;
     }
   }
+
+  .main-nav li {
+    margin: 0 .625rem;
+  }
+
   .intro-area {
 
     h1 {
