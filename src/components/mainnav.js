@@ -5,7 +5,7 @@ export default function MainNav() {
             <li><a href="#about" className="">About</a></li>
             <li><a href="#menu" className="">Menu</a></li>
             <li><a href="#contact" className="">Contact</a></li>
-            <li><a href="/checkout" className="">Checkout</a></li>
+            <li><a href="/checkout" className="btn btn-primarycolor text-white">Checkout</a></li>
         </ul>
     )
 }
