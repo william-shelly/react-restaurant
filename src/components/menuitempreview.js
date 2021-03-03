@@ -6,7 +6,7 @@ export default function MenuItemPreview(props) {
                 <h2>{props.name}</h2>
                 <p><span dangerouslySetInnerHTML={{ __html: props.description}}></span></p>
                 <p className="text-center text-lg-left">${props.price}</p>
-                <a class="btn btn-primarycolor d-sm-inline-block text-white" href="#">View {props.name}</a>
+                <a class="btn btn-primarycolor d-sm-inline-block text-white" href="#0">View {props.name}</a>
             </div>
         </>
     )
