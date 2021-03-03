@@ -9,7 +9,7 @@ export default function Footer() {
         <footer className="container-fluid">
             <div className="row bg-dark">
                 <div className="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center p-4">
-                    <img src={logo} className="logo" alt="Kilkennys Restaurant" />
+                    <img src={logo} className="logo" alt="Kilkennys Restaurant" width="298" height="137" />
                 </div>
                 <div className="col-sm-12 col-lg-7 d-flex justify-content-center align-items-center justify-content-lg-start align-items-lg-center p-4">
                     <MainNav></MainNav>
